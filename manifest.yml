@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: JPetStore2Test2Test
+  host: JPetStore2Test2Test
+  disk_quota: 1024M
